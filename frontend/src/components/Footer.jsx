@@ -25,9 +25,9 @@ const Footer = () => {
         <div>
             <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
-                <li><a href="tel:+961001001" className="hover:underline cursor-pointer">+921234567</a></li>
+                <li><a href="tel:+921234567" className="hover:underline cursor-pointer">+921234567</a></li>
                 <li>
-                  <a href="mailto:contact@forever.com" className="hover:underline cursor-pointer">contact@mediserve.com</a>
+                  <a href="mailto:contact@mediserve.com" className="hover:underline cursor-pointer">contact@mediserve.com</a>
                 </li>
                 <li className="flex gap-3 mt-3">
                   <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
