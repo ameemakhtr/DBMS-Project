@@ -40,7 +40,6 @@ MediServe is a digital healthcare platform that connects users with healthcare p
 ## 🚫 Limitations
 - No real-time payment system (only Cash on Delivery)
 - Minimal error handling
-- `ORDERITEMS` is unused and not linked through foreign keys
 
 ---
 
@@ -48,6 +47,5 @@ MediServe is a digital healthcare platform that connects users with healthcare p
 - Add real-time payment gateway
 - Enable prescription uploads and pharmacy-side dashboards
 - Improve analytics and notifications
-- Consider removing unused ERD entities like `ORDERITEMS` for clarity
 
 ---
