@@ -31,26 +31,9 @@ MediServe is a digital healthcare platform that connects users with healthcare p
 
 ---
 
-## 🧩 ERD Notes
+## 🧩 ERD 
 ![image](https://github.com/user-attachments/assets/59be5c1c-90a8-4e37-ba3b-5667856cade2)
 
-### 🔹 `ORDERITEMS` Table
-- **Status:** Not used in the actual project implementation.
-- **Purpose:** Originally intended to normalize the many-to-many relationship between `ORDER` and `PRODUCT`.
-- **Current Structure:** The relationship is handled via the `items` array inside the `ORDER` table.
-- **Why it's included in ERD:** 
-  > To demonstrate normalized database design, though not implemented in code.
-
-📝 _Note: This table can be removed in future revisions as it is not functionally necessary._
-
----
-
-### 🔹 `NEWSLETTER` Table
-- **Status:** Included and partially implemented.
-- **Purpose:** To allow non-registered users to subscribe to promotional updates.
-- **Use Case:** Useful for future marketing, announcements, and offers.
-
-📝 _This table is lightweight and complements user engagement without requiring login._
 
 ---
 
